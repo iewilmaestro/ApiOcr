@@ -47,12 +47,12 @@ class rushbit{
                 return $run;
                 }
             }
-    public function Save($namadata){
-    	if(file_exists($namadata)){
-    	$datauser=file_get_contents($namadata);
-    	}else{
-    	$datauser=readline(self::col("Input ".$namadata,"rp1").self::col(' ≽','m')."\n");
-        file_put_contents($namadata,$datauser);
+        public function Save($namadata){
+    	    if(file_exists($namadata)){
+    	        $datauser=file_get_contents($namadata);
+    	    }else{
+    	        $datauser=readline(self::col("Input ".$namadata,"rp1").self::col(' ≽','m')."\n");
+                file_put_contents($namadata,$datauser);
 		}
 	    return $datauser;
 	    }
