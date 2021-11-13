@@ -1,1 +1,1 @@
-# ApiOcr feat rushbitcoin
+# ApiOcr feat Rushbitcoin
